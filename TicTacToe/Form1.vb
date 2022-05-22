@@ -20,5 +20,17 @@
         End If
         x.Enabled = False
 
+        getWinner()
+
+    End Sub
+
+    Private Sub getWinner()
+        If btnTopLeft.Text = btnTopMid.Text And btnTopMid.Text = btnTopRight.Text And btnTopLeft.Enabled = False Then
+            If btnTopLeft.Text = "X" Then
+                MessageBox.Show("X Wins!")
+                player1Score = +1
+            End If
+        End If
+
     End Sub
 End Class
