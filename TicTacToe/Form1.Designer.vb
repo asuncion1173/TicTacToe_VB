@@ -142,15 +142,16 @@ Partial Class Form1
         '
         'btnReset
         '
-        Me.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.btnReset.Font = New System.Drawing.Font("ISOCPEUR", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReset.Location = New System.Drawing.Point(154, 350)
+        Me.btnReset.BackColor = System.Drawing.Color.White
+        Me.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReset.Font = New System.Drawing.Font("hooge 05_55", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReset.Location = New System.Drawing.Point(157, 353)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(87, 23)
         Me.btnReset.TabIndex = 0
         Me.btnReset.TabStop = False
         Me.btnReset.Text = "Reset"
-        Me.btnReset.UseVisualStyleBackColor = True
+        Me.btnReset.UseVisualStyleBackColor = False
         '
         'player1Label
         '
@@ -210,9 +211,11 @@ Partial Class Form1
         'playerTurnText
         '
         Me.playerTurnText.AutoSize = True
-        Me.playerTurnText.Location = New System.Drawing.Point(151, 88)
+        Me.playerTurnText.Font = New System.Drawing.Font("LCDMono2", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.playerTurnText.ForeColor = System.Drawing.Color.White
+        Me.playerTurnText.Location = New System.Drawing.Point(129, 89)
         Me.playerTurnText.Name = "playerTurnText"
-        Me.playerTurnText.Size = New System.Drawing.Size(93, 13)
+        Me.playerTurnText.Size = New System.Drawing.Size(140, 13)
         Me.playerTurnText.TabIndex = 15
         Me.playerTurnText.Text = "Player 1's Turn (X)"
         '
