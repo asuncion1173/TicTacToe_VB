@@ -1,0 +1,12 @@
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\bin\Debug\TicTacToe.xml
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\obj\Debug\TicTacToe.vbproj.AssemblyReference.cache
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Form1.resources
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Resources.resources
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\obj\Debug\TicTacToe.vbproj.GenerateResource.cache
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\obj\Debug\TicTacToe.vbproj.CoreCompileInputs.cache
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\obj\Debug\TicTacToe.xml
+C:\Users\ASUNCION\source\repos\VB\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
