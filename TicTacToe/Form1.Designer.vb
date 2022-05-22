@@ -31,11 +31,12 @@ Partial Class Form1
         Me.btnBotLeft = New System.Windows.Forms.Button()
         Me.btnBotMid = New System.Windows.Forms.Button()
         Me.btnBotRight = New System.Windows.Forms.Button()
+        Me.btnReset = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnTopLeft
         '
-        Me.btnTopLeft.Location = New System.Drawing.Point(88, 175)
+        Me.btnTopLeft.Location = New System.Drawing.Point(89, 91)
         Me.btnTopLeft.Name = "btnTopLeft"
         Me.btnTopLeft.Size = New System.Drawing.Size(62, 57)
         Me.btnTopLeft.TabIndex = 0
@@ -43,7 +44,7 @@ Partial Class Form1
         '
         'btnTopMid
         '
-        Me.btnTopMid.Location = New System.Drawing.Point(166, 175)
+        Me.btnTopMid.Location = New System.Drawing.Point(167, 91)
         Me.btnTopMid.Name = "btnTopMid"
         Me.btnTopMid.Size = New System.Drawing.Size(62, 57)
         Me.btnTopMid.TabIndex = 1
@@ -51,7 +52,7 @@ Partial Class Form1
         '
         'btnTopRight
         '
-        Me.btnTopRight.Location = New System.Drawing.Point(244, 175)
+        Me.btnTopRight.Location = New System.Drawing.Point(245, 91)
         Me.btnTopRight.Name = "btnTopRight"
         Me.btnTopRight.Size = New System.Drawing.Size(62, 57)
         Me.btnTopRight.TabIndex = 2
@@ -59,7 +60,7 @@ Partial Class Form1
         '
         'btnMidLeft
         '
-        Me.btnMidLeft.Location = New System.Drawing.Point(88, 248)
+        Me.btnMidLeft.Location = New System.Drawing.Point(89, 164)
         Me.btnMidLeft.Name = "btnMidLeft"
         Me.btnMidLeft.Size = New System.Drawing.Size(62, 57)
         Me.btnMidLeft.TabIndex = 3
@@ -67,7 +68,7 @@ Partial Class Form1
         '
         'btnMidMid
         '
-        Me.btnMidMid.Location = New System.Drawing.Point(166, 247)
+        Me.btnMidMid.Location = New System.Drawing.Point(167, 163)
         Me.btnMidMid.Name = "btnMidMid"
         Me.btnMidMid.Size = New System.Drawing.Size(62, 57)
         Me.btnMidMid.TabIndex = 5
@@ -75,7 +76,7 @@ Partial Class Form1
         '
         'btnMidRight
         '
-        Me.btnMidRight.Location = New System.Drawing.Point(244, 248)
+        Me.btnMidRight.Location = New System.Drawing.Point(245, 164)
         Me.btnMidRight.Name = "btnMidRight"
         Me.btnMidRight.Size = New System.Drawing.Size(62, 57)
         Me.btnMidRight.TabIndex = 4
@@ -83,7 +84,7 @@ Partial Class Form1
         '
         'btnBotLeft
         '
-        Me.btnBotLeft.Location = New System.Drawing.Point(88, 321)
+        Me.btnBotLeft.Location = New System.Drawing.Point(89, 237)
         Me.btnBotLeft.Name = "btnBotLeft"
         Me.btnBotLeft.Size = New System.Drawing.Size(62, 57)
         Me.btnBotLeft.TabIndex = 8
@@ -91,7 +92,7 @@ Partial Class Form1
         '
         'btnBotMid
         '
-        Me.btnBotMid.Location = New System.Drawing.Point(166, 322)
+        Me.btnBotMid.Location = New System.Drawing.Point(167, 238)
         Me.btnBotMid.Name = "btnBotMid"
         Me.btnBotMid.Size = New System.Drawing.Size(62, 57)
         Me.btnBotMid.TabIndex = 7
@@ -99,17 +100,27 @@ Partial Class Form1
         '
         'btnBotRight
         '
-        Me.btnBotRight.Location = New System.Drawing.Point(244, 321)
+        Me.btnBotRight.Location = New System.Drawing.Point(245, 237)
         Me.btnBotRight.Name = "btnBotRight"
         Me.btnBotRight.Size = New System.Drawing.Size(62, 57)
         Me.btnBotRight.TabIndex = 6
         Me.btnBotRight.UseVisualStyleBackColor = True
         '
+        'btnReset
+        '
+        Me.btnReset.Location = New System.Drawing.Point(152, 324)
+        Me.btnReset.Name = "btnReset"
+        Me.btnReset.Size = New System.Drawing.Size(87, 23)
+        Me.btnReset.TabIndex = 9
+        Me.btnReset.Text = "Reset"
+        Me.btnReset.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(394, 450)
+        Me.ClientSize = New System.Drawing.Size(385, 388)
+        Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnBotLeft)
         Me.Controls.Add(Me.btnBotMid)
         Me.Controls.Add(Me.btnBotRight)
@@ -137,4 +148,5 @@ Partial Class Form1
     Friend WithEvents btnBotLeft As Button
     Friend WithEvents btnBotMid As Button
     Friend WithEvents btnBotRight As Button
+    Friend WithEvents btnReset As Button
 End Class

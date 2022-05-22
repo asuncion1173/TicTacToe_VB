@@ -106,4 +106,9 @@
             MessageBox.Show("Draw")
         End If
     End Sub
+
+    Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+        player1Score = 0
+        player2Score = 0
+    End Sub
 End Class
