@@ -32,6 +32,10 @@ Partial Class Form1
         Me.btnBotMid = New System.Windows.Forms.Button()
         Me.btnBotRight = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
+        Me.player1Label = New System.Windows.Forms.Label()
+        Me.playerScore1 = New System.Windows.Forms.Label()
+        Me.playerScore2 = New System.Windows.Forms.Label()
+        Me.player2Label = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnTopLeft
@@ -115,11 +119,51 @@ Partial Class Form1
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
         '
+        'player1Label
+        '
+        Me.player1Label.AutoSize = True
+        Me.player1Label.Location = New System.Drawing.Point(25, 38)
+        Me.player1Label.Name = "player1Label"
+        Me.player1Label.Size = New System.Drawing.Size(48, 13)
+        Me.player1Label.TabIndex = 10
+        Me.player1Label.Text = "Player 1:"
+        '
+        'playerScore1
+        '
+        Me.playerScore1.AutoSize = True
+        Me.playerScore1.Location = New System.Drawing.Point(79, 38)
+        Me.playerScore1.Name = "playerScore1"
+        Me.playerScore1.Size = New System.Drawing.Size(13, 13)
+        Me.playerScore1.TabIndex = 11
+        Me.playerScore1.Text = "0"
+        '
+        'playerScore2
+        '
+        Me.playerScore2.AutoSize = True
+        Me.playerScore2.Location = New System.Drawing.Point(332, 38)
+        Me.playerScore2.Name = "playerScore2"
+        Me.playerScore2.Size = New System.Drawing.Size(13, 13)
+        Me.playerScore2.TabIndex = 13
+        Me.playerScore2.Text = "0"
+        '
+        'player2Label
+        '
+        Me.player2Label.AutoSize = True
+        Me.player2Label.Location = New System.Drawing.Point(278, 38)
+        Me.player2Label.Name = "player2Label"
+        Me.player2Label.Size = New System.Drawing.Size(48, 13)
+        Me.player2Label.TabIndex = 12
+        Me.player2Label.Text = "Player 2:"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(385, 388)
+        Me.Controls.Add(Me.playerScore2)
+        Me.Controls.Add(Me.player2Label)
+        Me.Controls.Add(Me.playerScore1)
+        Me.Controls.Add(Me.player1Label)
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnBotLeft)
         Me.Controls.Add(Me.btnBotMid)
@@ -136,6 +180,7 @@ Partial Class Form1
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "TicTacToe"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -149,4 +194,8 @@ Partial Class Form1
     Friend WithEvents btnBotMid As Button
     Friend WithEvents btnBotRight As Button
     Friend WithEvents btnReset As Button
+    Friend WithEvents player1Label As Label
+    Friend WithEvents playerScore1 As Label
+    Friend WithEvents playerScore2 As Label
+    Friend WithEvents player2Label As Label
 End Class

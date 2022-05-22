@@ -116,6 +116,7 @@
     End Sub
 
     Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+        MessageBox.Show("Reset game. Have Fun!")
         player1Score = 0
         player2Score = 0
         clearBoard()
@@ -142,7 +143,12 @@
         btnBotMid.Text = ""
         btnBotRight.Text = ""
 
+        playerScore1.Text = player1Score.ToString()
+        playerScore2.Text = player2Score.ToString()
+
         countx = 0
         turn = True
+
     End Sub
+
 End Class
