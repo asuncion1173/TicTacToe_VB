@@ -36,6 +36,7 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+            clearBoard()
         ElseIf btnMidLeft.Text = btnMidMid.Text And btnMidMid.Text = btnMidRight.Text And btnMidLeft.Enabled = False Then
             If btnMidLeft.Text = "X" Then
                 MessageBox.Show("X Wins!")
@@ -44,6 +45,7 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+            clearBoard()
         ElseIf btnBotLeft.Text = btnBotMid.Text And btnBotMid.Text = btnBotRight.Text And btnBotLeft.Enabled = False Then
             If btnBotLeft.Text = "X" Then
                 MessageBox.Show("X Wins!")
@@ -52,6 +54,7 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+            clearBoard()
         End If
 
         'For Vertical Combination
@@ -64,6 +67,7 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+            clearBoard()
         ElseIf btnTopMid.Text = btnMidMid.Text And btnMidMid.Text = btnBotMid.Text And btnTopMid.Enabled = False Then
             If btnTopMid.Text = "X" Then
                 MessageBox.Show("X Wins!")
@@ -72,6 +76,7 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+            clearBoard()
         ElseIf btnTopRight.Text = btnMidRight.Text And btnMidRight.Text = btnBotRight.Text And btnTopRight.Enabled = False Then
             If btnTopRight.Text = "X" Then
                 MessageBox.Show("X Wins!")
@@ -80,6 +85,7 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+            clearBoard()
         End If
 
         'For Diagonal Combination
@@ -92,6 +98,7 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+            clearBoard()
         ElseIf btnTopRight.Text = btnMidMid.Text And btnMidMid.Text = btnBotLeft.Text And btnTopRight.Enabled = False Then
             If btnTopRight.Text = "X" Then
                 MessageBox.Show("X Wins!")
@@ -100,6 +107,7 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+            clearBoard()
         End If
 
         If countx = 5 Then
