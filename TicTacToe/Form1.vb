@@ -3,18 +3,16 @@
     Dim turn As Boolean = True
     Dim player1Score As Short = 0
     Dim player2Score As Short = 0
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-
-    End Sub
 
     Private Sub btn_Click(sender As Object, e As EventArgs) Handles btnTopRight.Click, btnTopMid.Click, btnTopLeft.Click, btnMidRight.Click, btnMidMid.Click, btnMidLeft.Click, btnBotRight.Click, btnBotMid.Click, btnBotLeft.Click
         Dim x As Button = CType(sender, Button)
         If turn Then
+            playerTurnText.Text = "Player 2's Turn (O)"
             x.Text = "X"
             countx += 1
             turn = False
         Else
+            playerTurnText.Text = "Player 1's Turn (X)"
             x.Text = "O"
             turn = True
         End If
@@ -146,6 +144,7 @@
 
         playerScore1.Text = player1Score.ToString()
         playerScore2.Text = player2Score.ToString()
+        playerTurnText.Text = "Player 1's Turn (X)"
 
         countx = 0
         turn = True
