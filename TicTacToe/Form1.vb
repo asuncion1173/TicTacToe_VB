@@ -41,6 +41,14 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+        ElseIf btnBotLeft.Text = btnBotMid.Text And btnBotMid.Text = btnBotRight.Text And btnBotLeft.Enabled = False Then
+            If btnBotLeft.Text = "X" Then
+                MessageBox.Show("X Wins!")
+                player1Score = +1
+            Else
+                MessageBox.Show("O Wins!")
+                player2Score = +1
+            End If
         End If
 
     End Sub
