@@ -28,28 +28,28 @@
 
         If btnTopLeft.Text = btnTopMid.Text And btnTopMid.Text = btnTopRight.Text And btnTopLeft.Enabled = False Then
             If btnTopLeft.Text = "X" Then
-                MessageBox.Show("X Wins!")
+                MessageBox.Show("Player 1 Wins!")
                 player1Score = player1Score + 1
             Else
-                MessageBox.Show("O Wins!")
+                MessageBox.Show("Player 2 Wins!")
                 player2Score = player2Score + 1
             End If
             clearBoard()
         ElseIf btnMidLeft.Text = btnMidMid.Text And btnMidMid.Text = btnMidRight.Text And btnMidLeft.Enabled = False Then
             If btnMidLeft.Text = "X" Then
-                MessageBox.Show("X Wins!")
+                MessageBox.Show("Player 1 Wins!")
                 player1Score = player1Score + 1
             Else
-                MessageBox.Show("O Wins!")
+                MessageBox.Show("Player 2 Wins!")
                 player2Score = player2Score + 1
             End If
             clearBoard()
         ElseIf btnBotLeft.Text = btnBotMid.Text And btnBotMid.Text = btnBotRight.Text And btnBotLeft.Enabled = False Then
             If btnBotLeft.Text = "X" Then
-                MessageBox.Show("X Wins!")
+                MessageBox.Show("Player 1 Wins!")
                 player1Score = player1Score + 1
             Else
-                MessageBox.Show("O Wins!")
+                MessageBox.Show("Player 2 Wins!")
                 player2Score = player2Score + 1
             End If
             clearBoard()
@@ -59,28 +59,28 @@
 
         If btnTopLeft.Text = btnMidLeft.Text And btnMidLeft.Text = btnBotLeft.Text And btnTopLeft.Enabled = False Then
             If btnTopLeft.Text = "X" Then
-                MessageBox.Show("X Wins!")
+                MessageBox.Show("Player 1 Wins!")
                 player1Score = player1Score + 1
             Else
-                MessageBox.Show("O Wins!")
+                MessageBox.Show("Player 2 Wins!")
                 player2Score = player2Score + 1
             End If
             clearBoard()
         ElseIf btnTopMid.Text = btnMidMid.Text And btnMidMid.Text = btnBotMid.Text And btnTopMid.Enabled = False Then
             If btnTopMid.Text = "X" Then
-                MessageBox.Show("X Wins!")
+                MessageBox.Show("Player 1 Wins!")
                 player1Score = player1Score + 1
             Else
-                MessageBox.Show("O Wins!")
+                MessageBox.Show("Player 2 Wins!")
                 player2Score = player2Score + 1
             End If
             clearBoard()
         ElseIf btnTopRight.Text = btnMidRight.Text And btnMidRight.Text = btnBotRight.Text And btnTopRight.Enabled = False Then
             If btnTopRight.Text = "X" Then
-                MessageBox.Show("X Wins!")
+                MessageBox.Show("Player 1 Wins!")
                 player1Score = player1Score + 1
             Else
-                MessageBox.Show("O Wins!")
+                MessageBox.Show("Player 2 Wins!")
                 player2Score = player2Score + 1
             End If
             clearBoard()
@@ -90,19 +90,19 @@
 
         If btnTopLeft.Text = btnMidMid.Text And btnMidMid.Text = btnBotRight.Text And btnTopLeft.Enabled = False Then
             If btnTopLeft.Text = "X" Then
-                MessageBox.Show("X Wins!")
+                MessageBox.Show("Player 1 Wins!")
                 player1Score = player1Score + 1
             Else
-                MessageBox.Show("O Wins!")
+                MessageBox.Show("Player 2 Wins!")
                 player2Score = player2Score + 1
             End If
             clearBoard()
         ElseIf btnTopRight.Text = btnMidMid.Text And btnMidMid.Text = btnBotLeft.Text And btnTopRight.Enabled = False Then
             If btnTopRight.Text = "X" Then
-                MessageBox.Show("X Wins!")
+                MessageBox.Show("Player 1 Wins!")
                 player1Score = player1Score + 1
             Else
-                MessageBox.Show("O Wins!")
+                MessageBox.Show("Player 2 Wins!")
                 player2Score = player2Score + 1
             End If
             clearBoard()
