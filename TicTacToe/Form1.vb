@@ -29,6 +29,9 @@
             If btnTopLeft.Text = "X" Then
                 MessageBox.Show("X Wins!")
                 player1Score = +1
+            Else
+                MessageBox.Show("O Wins!")
+                player2Score = +1
             End If
         End If
 
