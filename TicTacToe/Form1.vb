@@ -25,6 +25,9 @@
     End Sub
 
     Private Sub getWinner()
+
+        'For Horizontal Combination
+
         If btnTopLeft.Text = btnTopMid.Text And btnTopMid.Text = btnTopRight.Text And btnTopLeft.Enabled = False Then
             If btnTopLeft.Text = "X" Then
                 MessageBox.Show("X Wins!")
@@ -51,5 +54,32 @@
             End If
         End If
 
+        'For Vertical Combination
+
+        If btnTopLeft.Text = btnMidLeft.Text And btnMidLeft.Text = btnBotLeft.Text And btnTopLeft.Enabled = False Then
+            If btnTopLeft.Text = "X" Then
+                MessageBox.Show("X Wins!")
+                player1Score = +1
+            Else
+                MessageBox.Show("O Wins!")
+                player2Score = +1
+            End If
+        ElseIf btnTopMid.Text = btnMidMid.Text And btnMidMid.Text = btnBotMid.Text And btnTopMid.Enabled = False Then
+            If btnTopMid.Text = "X" Then
+                MessageBox.Show("X Wins!")
+                player1Score = +1
+            Else
+                MessageBox.Show("O Wins!")
+                player2Score = +1
+            End If
+        ElseIf btnTopRight.Text = btnMidRight.Text And btnMidRight.Text = btnBotRight.Text And btnTopRight.Enabled = False Then
+            If btnTopRight.Text = "X" Then
+                MessageBox.Show("X Wins!")
+                player1Score = +1
+            Else
+                MessageBox.Show("O Wins!")
+                player2Score = +1
+            End If
+        End If
     End Sub
 End Class
