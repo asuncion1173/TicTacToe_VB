@@ -110,5 +110,31 @@
     Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
         player1Score = 0
         player2Score = 0
+        clearBoard()
+    End Sub
+
+    Private Sub clearBoard()
+        btnTopLeft.Enabled = True
+        btnTopMid.Enabled = True
+        btnTopRight.Enabled = True
+        btnMidLeft.Enabled = True
+        btnMidMid.Enabled = True
+        btnMidRight.Enabled = True
+        btnBotLeft.Enabled = True
+        btnBotMid.Enabled = True
+        btnBotRight.Enabled = True
+
+        btnTopLeft.Text = ""
+        btnTopMid.Text = ""
+        btnTopRight.Text = ""
+        btnMidLeft.Text = ""
+        btnMidMid.Text = ""
+        btnMidRight.Text = ""
+        btnBotLeft.Text = ""
+        btnBotMid.Text = ""
+        btnBotRight.Text = ""
+
+        countx = 0
+        turn = True
     End Sub
 End Class
