@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-    Dim countx As Integer = 0
+    Dim countx As Byte = 0
     Dim turn As Boolean = True
     Dim player1Score As Short = 0
     Dim player2Score As Short = 0
@@ -100,6 +100,10 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+        End If
+
+        If countx = 5 Then
+            MessageBox.Show("Draw")
         End If
     End Sub
 End Class
