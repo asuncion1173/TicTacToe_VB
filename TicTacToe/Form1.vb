@@ -81,5 +81,25 @@
                 player2Score = +1
             End If
         End If
+
+        'For Diagonal Combination
+
+        If btnTopLeft.Text = btnMidMid.Text And btnMidMid.Text = btnBotRight.Text And btnTopLeft.Enabled = False Then
+            If btnTopLeft.Text = "X" Then
+                MessageBox.Show("X Wins!")
+                player1Score = +1
+            Else
+                MessageBox.Show("O Wins!")
+                player2Score = +1
+            End If
+        ElseIf btnTopRight.Text = btnMidMid.Text And btnMidMid.Text = btnBotLeft.Text And btnTopRight.Enabled = False Then
+            If btnTopRight.Text = "X" Then
+                MessageBox.Show("X Wins!")
+                player1Score = +1
+            Else
+                MessageBox.Show("O Wins!")
+                player2Score = +1
+            End If
+        End If
     End Sub
 End Class
