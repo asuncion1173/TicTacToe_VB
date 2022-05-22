@@ -33,6 +33,14 @@
                 MessageBox.Show("O Wins!")
                 player2Score = +1
             End If
+        ElseIf btnMidLeft.Text = btnMidMid.Text And btnMidMid.Text = btnMidRight.Text And btnMidLeft.Enabled = False Then
+            If btnMidLeft.Text = "X" Then
+                MessageBox.Show("X Wins!")
+                player1Score = +1
+            Else
+                MessageBox.Show("O Wins!")
+                player2Score = +1
+            End If
         End If
 
     End Sub
